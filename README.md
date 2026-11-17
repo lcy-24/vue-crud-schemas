@@ -4,6 +4,8 @@ Schema 驱动的 Vue3 CRUD 组件库，基于 Element Plus。**一份列配置�
 
 全量 TypeScript，自带类型推导。适合中后台管理系统的快速搭建，也是从大型项目 shared-ui 组件库中提炼出的可复用方案。
 
+> ▶ **在线 demo**：https://lcy-24.github.io/vue-crud-schemas/
+
 ## 特性
 
 - 📋 **Schema 驱动**：用一份 `CrudColumn[]` 配置同时生成表格列、搜索项、表单项

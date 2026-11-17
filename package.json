@@ -41,6 +41,7 @@
     "type": "git",
     "url": "git+https://github.com/lcy-24/vue-crud-schemas.git"
   },
+  "homepage": "https://lcy-24.github.io/vue-crud-schemas/",
   "peerDependencies": {
     "element-plus": ">=2.6.0",
     "vue": ">=3.3.0"
