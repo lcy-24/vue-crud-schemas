@@ -1,0 +1,56 @@
+{
+  "name": "vue-crud-schemas",
+  "version": "1.0.0",
+  "description": "Schema 驱动的 Vue3 CRUD 组件库，基于 Element Plus，一份列配置同时驱动表格、搜索表单与编辑表单，TypeScript 全量支持",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-crud-schemas.umd.cjs",
+  "module": "./dist/vue-crud-schemas.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/vue-crud-schemas.js",
+      "require": "./dist/vue-crud-schemas.umd.cjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "vite build && vue-tsc -p tsconfig.build.json",
+    "typecheck": "vue-tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue3",
+    "vue",
+    "crud",
+    "schema",
+    "element-plus",
+    "table",
+    "form",
+    "search",
+    "typescript",
+    "component-library",
+    "useCrudSchemas"
+  ],
+  "author": "jackiechan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcy-24/vue-crud-schemas.git"
+  },
+  "peerDependencies": {
+    "element-plus": ">=2.6.0",
+    "vue": ">=3.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "element-plus": "^2.8.8",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vue": "^3.5.13",
+    "vue-tsc": "^2.1.10"
+  }
+}
